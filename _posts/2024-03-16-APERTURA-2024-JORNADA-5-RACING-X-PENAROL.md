@@ -8,7 +8,7 @@ jornada: 5
 partido: RACING X PEÑAROL
 local: RACING
 visitante: PEÑAROL
-image: '/images/RAC-PEN.png'
+image: '{{ site.url }}/images/RAC-PEN.png'
 downloadlink: https://uqload.to/casqov3f2jbb.html
 video: HEVC, 1280x720, 25.000 fps
 audio: aac, 2ch, 48000 Hz, 128 kbps
