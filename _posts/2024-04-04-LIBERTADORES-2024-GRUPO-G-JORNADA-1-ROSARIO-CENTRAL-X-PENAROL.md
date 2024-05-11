@@ -5,11 +5,11 @@ sub-title: Libertadores · Grupo G · Jornada 1
 torneo: Libertadores
 category: partidos-completos
 jornada: 1
-grupo: G
+GRUPO: G
 partido: ROSARIO CENTRAL X PEÑAROL
 local: ROSARIO CENTRAL
 visitante: PEÑAROL
-image: "{{ '/images/CEN-PEN.png' | prepend: site.baseurl }}"
+image: '/images/CEN-PEN.png'
 downloadlink: https://uqload.to/avkepylzpnm2.html
 video: HEVC, 852x480, 30.000 fps
 audio: aac, 2ch, 48000 Hz

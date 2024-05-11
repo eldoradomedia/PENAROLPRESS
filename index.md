@@ -23,7 +23,7 @@ author: elbostero.tk
                 <div class="card-header text-center kustom_culture">
                     <h4>{{ post.torneo }}</h4>
                 </div>
-                <img src="{{ post.image }}" width="100%">
+                <img src="{{ post.image | prepend: base.url }}" width="100%">
                 <div class="card-body">
                     <h4 class="card-title kustom_culture">
                         {{ post.local }} X<br>

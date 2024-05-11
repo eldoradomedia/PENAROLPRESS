@@ -2,14 +2,14 @@
 layout: post
 title: CARACAS X PEÑAROL
 sub-title: Libertadores · Grupo G · Jornada 4
-torneo: LIBERTADORES
+torneo: Libertadores
 category: partidos-completos
 jornada: 4
-grupo: G
+GRUPO: G
 partido: CARACAS X PEÑAROL
 local: CARACAS
 visitante: PEÑAROL
-image: "{{ '/images/CFC-PEN.png' | prepend: site.baseurl }}"
+image: '/images/CFC-PEN.png'
 downloadlink: https://uqload.to/p68fa9r6sj7m.html
 video: HEVC, 1280x720, 59.94 fps
 audio: mp3, mono, 44100 Hz, 128 kbps

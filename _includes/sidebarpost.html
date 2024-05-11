@@ -9,7 +9,7 @@
     <div class="card-header text-center">
         <h4>{{ page.torneo }}</h4>
     </div>
-    <img src="{{ site.url }}{{ page.image }}"/>
+    <img src="{{ post.image | prepend: base.url }}"/>
     <div class="card-body">
         <h2 class="card-title">
             {{ page.local }} X<br>

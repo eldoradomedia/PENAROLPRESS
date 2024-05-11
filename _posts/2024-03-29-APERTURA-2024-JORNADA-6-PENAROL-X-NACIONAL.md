@@ -8,7 +8,7 @@ jornada: 6
 partido: PEÑAROL X NACIONAL
 local: PEÑAROL
 visitante: NACIONAL
-image: "{{ '/images/PEN-NAC.png' | prepend: site.url }}"
+image: '/images/PEN-NAC.png'
 downloadlink: https://uqload.to/fes8dlwtrll8.html
 video: AVC, 1920x1080, 55.555 fps
 audio: aac, 2ch, 48000 Hz, 128 kbps
