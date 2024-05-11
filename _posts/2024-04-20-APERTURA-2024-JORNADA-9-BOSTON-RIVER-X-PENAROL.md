@@ -8,7 +8,7 @@ jornada: 9
 partido: BOSTON RIVER X PEÑAROL
 local: BOSTON RIVER
 visitante: PEÑAROL
-image: '{{ site.url }}/images/BRI-PEN.png'
+image: "{{ '/images/BRI-PEN.png' | prepend: site.baseurl }}"
 downloadlink: https://uqload.to/kpnw1p81vg3j.html
 video: AVC, 1280x720, 29.970 fps
 audio: vorbis, 2ch, 48000 Hz, 128 kbps

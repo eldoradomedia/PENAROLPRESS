@@ -8,7 +8,7 @@ jornada: 3
 partido: RAMPLA JUNIORS X PEÑAROL
 local: RAMPLA JUNIORS
 visitante: PEÑAROL
-image: '{{ site.url }}/images/RAM-PEN.png'
+image: "{{ '/images/RAM-PEN.png' | prepend: site.baseurl }}"
 downloadlink: https://uqload.to/4w2xt1jao565.html
 video: AVC, 1024x576, 30.000 fps
 audio: aac, 2ch, 48000 Hz, 128 kbps

@@ -8,7 +8,7 @@ jornada: 10
 partido: PEÑAROL X RIVER PLATE
 local: PEÑAROL
 visitante: RIVER PLATE
-image: '{{ site.url }}/images/PEN-RIV.png'
+image: "{{ '/images/PEN-RIV.png' | prepend: site.baseurl }}"
 downloadlink: https://uqload.to/8958szm2u3j7.html
 video: AVC, 1920x1080, 24.985 fps
 audio: mp3, 1ch, 44100 Hz, 128 kbps
