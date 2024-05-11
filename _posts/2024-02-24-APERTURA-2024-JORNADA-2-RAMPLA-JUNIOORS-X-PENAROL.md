@@ -8,7 +8,7 @@ jornada: 2
 partido: PEÑAROL X MIRAMAR MISIONES
 local: PEÑAROL
 visitante: MIRAMAR MISIONES
-image: '{{ site.url }}/images/PEN-MMI.png'
+image: '/images/PEN-MMI.png'
 downloadlink: https://uqload.to/x54ei35pt7fw.html
 video: AVC, 1920x1080, 25.000 fps
 audio: aac, 2ch, 24000 Hz, 128 kbps

@@ -9,7 +9,7 @@ grupo: G
 partido: ROSARIO CENTRAL X PEÑAROL
 local: ROSARIO CENTRAL
 visitante: PEÑAROL
-image: '{{ site.url }}/images/CEN-PEN.png'
+image: '/images/CEN-PEN.png'
 downloadlink: https://uqload.to/avkepylzpnm2.html
 video: HEVC, 852x480, 30.000 fps
 audio: aac, 2ch, 48000 Hz
