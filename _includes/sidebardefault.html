@@ -1,0 +1,60 @@
+<div class="mt-5 mb-4 dyuthi_regular">
+    <h2 class="text-success kustom_culture"> 
+        próximo partido 
+    </h2>
+    <strong>Contra Wanderers en el Campeón del Siglo</strong>
+    <hr>
+</div>
+<div class="card m-4 kustom_culture">
+    <div class="card-header text-center">
+        <h4>APERTURA</h4>
+    </div>
+    <img src="{{ site.url }}/images/PEN-WAN.png"/>
+    <div class="card-body">
+        <h4 class="card-title dyuthi_regular" id="countdown">
+
+        </h4>
+        <h5 class="card-text">
+            11/05/2024 23:00 CET<br>
+            Estadio Campeón del Siglo<br>
+            Montevideo, Uruguay<br>
+        </h5>
+        <a href="{{ site.url }}/penarol-directo/index.html" class="btn btn-success">ver contenido </a>
+    </div>
+</div>
+<script>
+    // Converting string to required date format 
+    let deadline = new Date("May 11, 2024 23:00:00")
+                    .getTime();
+
+    // To call defined fuction every second
+    let x = setInterval(function () {
+         
+        // Getting current time in required format
+        let now = new Date().getTime();
+
+        // Calculating the difference
+        let t = deadline - now;
+
+        // Getting value of days, hours, minutes, seconds
+        let days = Math.floor(t / (1000 * 60 * 60 * 24));
+        let hours = Math.floor(
+            (t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let minutes = Math.floor(
+            (t % (1000 * 60 * 60)) / (1000 * 60));
+        let seconds = Math.floor(
+            (t % (1000 * 60)) / 1000);
+
+        // Output the remaining time
+        document.getElementById("countdown").innerHTML =
+            days + "d " + hours + "h " + 
+            minutes + "m " + seconds + "s ";
+
+        // Output for over time
+        if (t < 0) {
+            clearInterval(x);
+            document.getElementById("countdown")
+                    .innerHTML = "¡comenzó!";
+        }
+    }, 1000);
+</script>

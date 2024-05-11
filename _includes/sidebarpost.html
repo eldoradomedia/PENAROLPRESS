@@ -1,0 +1,26 @@
+<div class="mt-5 mb-4 dyuthi_regular">
+    <h2 class="text-success kustom_culture"> 
+        {{ page.title }} 
+    </h2>
+    <strong>{{ page.sub-title }}</strong>
+    <hr>
+</div>
+<div class="card m-4 kustom_culture">
+    <div class="card-header text-center">
+        <h4>{{ page.torneo }}</h4>
+    </div>
+    <img src="{{ site.url }}{{ page.image }}"/>
+    <div class="card-body">
+        <h2 class="card-title">
+            {{ page.local }} X<br>
+            {{ page.visitante }}
+        </h2>
+        <h5 class="card-text">
+            Partido Completo<br>
+            {{ page.video }}<br>
+            {{ page.audio }}<br>
+            {{ page.relato }}<br>
+        </h5>
+        <a href="{{ page.downloadlink }}" class="btn btn-success kustom_culture">Descargar </a>
+    </div>
+</div>

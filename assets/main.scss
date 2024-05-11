@@ -1,0 +1,51 @@
+---
+---
+
+@import "custom";
+@import "bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: 'kustom_cultureregular';
+    src: url('{{ site.url }}/assets/css/fonts/kustomculture-regular-webfont.woff2') format('woff2'),
+         url('{{ site.url }}/assets/css/fonts/kustomculture-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dyuthiregular';
+    src: url('{{ site.url }}/assets/css/fonts/dyuthi-regular-webfont.woff2') format('woff2'),
+         url('{{ site.url }}/assets/css/fonts/dyuthi-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.kustom_culture {
+    font-family: 'kustom_cultureregular';
+}
+
+.dyuthi_regular {
+    font-family: 'dyuthiregular';
+}
+
+#countdown {
+    text-align: left;
+}
+
+.footer {
+    background-color: #212429;
+    color: #ffffe0;
+    bottom: 0;
+    font-family: dyuthiregular;
+}
+
+body a {
+    color: #b8b57e;
+    text-decoration: none;
+}
+
+body a:hover{
+    color: #848356;
+    text-decoration: none;
+}
+
