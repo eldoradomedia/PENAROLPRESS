@@ -8,7 +8,7 @@ jornada: 11
 partido: LIVERPOOL X PEÑAROL
 local: LIVERPOOL
 visitante: PEÑAROL
-image: '/images/LIV-PEN.png'
+image: '{{ site.url }}/images/LIV-PEN.png'
 downloadlink: https://uqload.to/uaidxjtk2e9t.html
 video: AVC, 1920x1080, 25 fps
 audio: mp3, mono, 44100 Hz, 128 kb/s
