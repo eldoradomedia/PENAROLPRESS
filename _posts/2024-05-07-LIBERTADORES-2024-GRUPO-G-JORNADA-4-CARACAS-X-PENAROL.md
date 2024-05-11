@@ -9,7 +9,7 @@ grupo: G
 partido: CARACAS X PEÑAROL
 local: CARACAS
 visitante: PEÑAROL
-image: '/images/CFC-PEN.png'
+image: '{{ site.url }}/images/CFC-PEN.png'
 downloadlink: https://uqload.to/p68fa9r6sj7m.html
 video: HEVC, 1280x720, 59.94 fps
 audio: mp3, mono, 44100 Hz, 128 kbps
