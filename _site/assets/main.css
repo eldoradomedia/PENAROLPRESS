@@ -3494,10 +3494,16 @@ body a:hover { color: #8a5906; text-decoration: none; }
 
 .card-header-light { background-color: #f8fbc0; color: #212429; }
 
-.cards-padding { padding: 0px; margin: 0px; }
+.aire { padding: 1rem; margin: 0px; }
 
 h2, .h2, h6, .h6 { display: flex; justify-content: space-between; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: kustom_cultureregular; }
 
-.cardfix { /*overflow-x: scroll;*/ white-space: nowrap; max-width: 300px; padding: 1rem; }
+.cardfix { /*overflow-x: scroll;*/ white-space: nowrap; max-width: 250px; padding: 1rem; }
+
+.top-style { border-top: 10px solid #c97f03; border-top-style: solid; }
+
+.top-top-style { border: 5px solid #212429; border-style: solid; padding: 1rem; }
+
+.h-100 { height: 66% !important; }

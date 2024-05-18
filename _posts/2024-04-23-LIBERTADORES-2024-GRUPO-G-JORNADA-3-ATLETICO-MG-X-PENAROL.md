@@ -23,17 +23,16 @@ tags:
 date: 2024-04-23T20:00:00 -04:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular"> 
+<div class="mt-5 mb-4 dyuthi_regular top-top-style"> 
     <h1 class="text-success kustom_culture"> 
                 {{ page.title }} 
     </h1> 
     <strong>{{ page.sub-title }}</strong>
     <hr> 
 </div>
-<div class="container embed-responsive embed-responsive-16by9 position-relative"> 
-    <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-t2gzqdilhwyg.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen><div style="height: 1000px;"></div></iframe> 
+<div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
+    <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-t2gzqdilhwyg.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 
 </div>
-
 
 
 

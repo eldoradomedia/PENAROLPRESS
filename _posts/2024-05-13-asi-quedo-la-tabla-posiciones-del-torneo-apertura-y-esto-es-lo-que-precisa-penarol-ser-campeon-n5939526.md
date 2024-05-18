@@ -6,7 +6,7 @@ image: 'https://media.elobservador.com.uy/p/7d01be908c88cf28da29404c157e2f3d/adj
 date: 2024-05-13T17:35:17 +2:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular">
+<div class="mt-5 mb-4 dyuthi_regular top-top-style">
     <h1 class="kustom_culture black-title">
         {{ page.title }} 
     </h1>
