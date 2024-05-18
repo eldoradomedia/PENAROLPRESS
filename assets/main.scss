@@ -20,12 +20,38 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'archivosemibold';
+    src: url('{{ site.url }}/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('{{ site.url }}/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gasparregular';
+    src: url('{{ site.url }}/assets/css/fonts/gaspar_regular-webfont.woff2') format('woff2'),
+         url('{{ site.url }}/assets/css/fonts/gaspar_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .kustom_culture {
     font-family: 'kustom_cultureregular';
 }
 
 .dyuthi_regular {
     font-family: 'dyuthiregular';
+}
+
+.archivo_regular {
+    font-family: 'archivosemibold';
+}
+
+.gaspar_regular {
+    font-family: 'gasparregular';
 }
 
 #countdown {
@@ -40,12 +66,46 @@
 }
 
 body a {
-    color: #b8b57e;
+    color: #c97f03;
     text-decoration: none;
 }
 
 body a:hover{
-    color: #848356;
+    color: #8a5906;
     text-decoration: none;
 }
 
+.noticias {
+    font-family: 'archivo_regular';
+    font-size: 20px;
+}
+
+.black-title {
+    color: #212429;
+}
+
+.card-header-light {
+    background-color: #f8fbc0;
+    color: #212429;
+}
+
+.cards-padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2, h6, h5 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: kustom_cultureregular;
+}
+
+.cardfix {
+    /*overflow-x: scroll;*/
+    white-space: nowrap;
+    max-width: 300px;
+    padding: 1rem;
+    }

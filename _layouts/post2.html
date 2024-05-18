@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="d-flex flex-column vh-100">
+        {% include header.html %}
+        {% include navbar.html %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 main">
+                    <div class="noticias" style="padding: 0 40 40 0;">
+                        {{ content }}
+                    </div>
+                </div>
+                <div class="col-md-3 sidebar">
+                    {% include sidebardefault.html %}
+                </div>
+            </div>
+        </div>
+        <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
+        <script src="{{'/node_modules/@popperjs/core/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+        <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+    </body>
+    <div style="height: 130px"></div>
+    {% include footer2.html %}
+</html>

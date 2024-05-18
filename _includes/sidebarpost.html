@@ -5,11 +5,11 @@
     <strong>{{ page.sub-title }}</strong>
     <hr>
 </div>
-<div class="card m-4 kustom_culture">
-    <div class="card-header text-center">
+<div class="card container-fluid kustom_culture" style="padding: 0">
+    <div class="card-header container-fluid text-center dyuthi_regular" style="padding: 0">
         <h4>{{ page.torneo }}</h4>
     </div>
-    <img src="{{ post.image | prepend: base.url }}"/>
+    <img src="{{ site.url }}/{{ page.image }}"/>
     <div class="card-body">
         <h2 class="card-title">
             {{ page.local }} X<br>
@@ -19,8 +19,12 @@
             Partido Completo<br>
             {{ page.video }}<br>
             {{ page.audio }}<br>
-            {{ page.relato }}<br>
+            
         </h5>
-        <a href="{{ page.downloadlink }}" class="btn btn-success kustom_culture">Descargar </a>
+        <h6>
+            <a href="{{ page.downloadlink }}" class="btn btn-success kustom_culture">Descargar </a>
+            <img src="{{ site.url }}/images/cx12.png" height="25px">
+        </h6>
     </div>
 </div>
+<div style="height: 50px;"></div>

@@ -3,7 +3,7 @@
     <head>
         {% include head.html %}
     </head>
-    <body>
+    <body class="d-flex flex-column vh-100">
         {% include header.html %}
         {% include navbar.html %}
         <div class="container">
@@ -20,5 +20,6 @@
         <script src="{{'/node_modules/@popperjs/core/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
         <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
     </body>
-    {% include footer.html %}
+    <div style="height: 130px"></div>
+    {% include footer2.html %}
 </html>

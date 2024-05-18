@@ -52,3 +52,7 @@ button {
     cursor: pointer;
     font-size: 25px;
 }
+
+.equalizer {
+    min-height: 750px;
+}
