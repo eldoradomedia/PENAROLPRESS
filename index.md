@@ -24,7 +24,7 @@ author: elbostero.tk
                 <div class="card-header text-center dyuthi_regular">
                     <p>Jornada {{ post.jornada }} · {{ post.torneo }}</p>
                 </div>
-                <img src="{{ post.image }}" width="100%">
+                <img src="{{ site.url }}/{{ post.image }}" width="100%">
                 <div class="card-body">
                     <h4 class="card-title text-white kustom_culture">
                         {{ post.local }} X<br>
