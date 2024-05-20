@@ -1,13 +1,14 @@
-<div class="mt-5 mb-4 dyuthi_regular top-top-style">
-    <h6 class="text-success kustom_culture"> 
+<div class="mt-5 mb-4 dyuthi_regular">
+    <h3 class="text-success kustom_culture"> 
         {{ page.title }} 
-    </h6>
-    <strong>{{ page.sub-title }}</strong>
+    </h3>
     <hr>
+    <strong>{{ page.sub-title }}</strong>
+    
 </div>
 <div class="card container-fluid kustom_culture" style="padding: 0">
     <div class="card-header container-fluid text-center dyuthi_regular" style="padding: 0">
-        <h4 class="dyuthi_regular">{{ page.torneo }}</h4>
+        <p class="dyuthi_regular">{{ page.torneo }}</p>
     </div>
     <img src="{{ site.url }}/{{ page.image }}"/>
     <div class="card-body">
@@ -15,25 +16,24 @@
             {{ page.local }} X<br>
             {{ page.visitante }}
         </h2>
-        <h5 class="card-text">
+        <h6 class="card-text">
             Partido Completo<br>
             {{ page.video }}<br>
             {{ page.audio }}<br>
             
-        </h5>
-        <h6>
-            <a href="{{ page.downloadlink }}" class="btn btn-danger kustom_culture">Descargar </a>
-            <img src="{{ site.url }}/images/cx12.png" height="25px">
         </h6>
+        <h5>
+            <a href="{{ page.downloadlink }}" class="btn btn-danger kustom_culture">Download </a>
+            <img src="{{ site.url }}/images/cx12.png" height="33px">
+        </h5>
     </div>
 </div>
 <div style="height: 50px;"></div>
-<div class="mt-5 mb-4 dyuthi_regular top-top-style">
-    <h6 class="text-success kustom_culture"> 
+<div class="mt-5 mb-4 dyuthi_regular">
+    <h5 class="text-success kustom_culture"> 
         <span>aviso legal </span>
-        <strong class="dyuthi_regular">DMCA</strong>
-    </h6>
-    
+        <strong><p class="dyuthi_regular">DMCA</p></strong>
+    </h5>
     <hr>
 </div>
     <div class="card container-fluid border-success archivo_regular" style="padding: 0"> 
@@ -45,16 +45,16 @@
            se pueden encontrar libremente con una
            simple búsqueda en google.
         </p> 
-        <h6>
-          <a href="#" class="btn btn-success kustom_culture"> 
-             PEÑAROLPRESS 
+        <h5>
+          <a href="#" class="kustom_culture"> 
+             capper
           </a>
-          <img src="{{ site.url }}/images/las40.png" height="25px" />
-        </h6> 
+          <img src="{{ site.url }}/images/las40.png" height="33px" />
+        </h5> 
       </div> 
     </div>
     <div class="mt-5 mb-4 dyuthi_regular top-top-style">
-        <h6 class="text-success kustom_culture"> 
+        <h5 class="text-success kustom_culture"> 
             <span>seguinos</span>
             <ul class="list-inline footer-links"> 
                 <li class="list-inline-item"> 
@@ -78,7 +78,6 @@
                   </a> 
                 </li> 
             </ul> 
-        </h6>
-        
-        <hr>
+        </h5>
     </div>
+    <div style="height: 150px;"></div>

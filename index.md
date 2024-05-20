@@ -1,17 +1,18 @@
 ---
 layout: default
-title: PARTIDOS PEÑAROL
+title: PARTIDOS COMPLETOS DE PEÑAROL
 sub-title: Temporada 2024
-author: elbostero.tk
+author: CAPPER
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style">
-    <h2 class="text-success kustom_culture">
-        <span>partidos</span>
-        <img src="{{ site.url }}/images/cx12.png" height="25px;">
-    </h2>
-    <strong>Temporada 2024</strong>
+<div class="mt-5 mb-4 dyuthi_regular black-title top-top-style">
+    <h1 class="text-success kustom_culture">
+        <span>{{ page.title }}</span>
+        <img src="{{ site.url }}/images/cx12.png" height="33px;">
+    </h1>
     <hr>
+    <strong>{{ page.sub-title }}</strong>
+    
 </div>
 <div class="container-fluid cover">
     <button class="left" onclick="leftScroll()">
@@ -45,14 +46,15 @@ author: elbostero.tk
 <div class="mt-5 mb-4 dyuthi_regular top-top-style">
     <h2 class="text-success kustom_culture">
         <span>Noticias</span>
-        <img src="{{ site.url }}/images/referi.png" height="15px;">
+        <img src="{{ site.url }}/images/referi.png" height="25px;">
     </h2>
-    <strong>Temporada 2024</strong>
     <hr>
+    <strong>Temporada 2024</strong>
+    
 </div>
 
    <div class="row">
-      {% for post in site.categories.noticias limit: 12 %}
+      {% for post in site.categories.noticias limit: 30 %}
       <div class="col aire">
         <div class="container-fluid">
             <div class="card m-2" style="width: 250px;border: 0;">

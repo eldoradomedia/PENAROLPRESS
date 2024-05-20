@@ -1,0 +1,22 @@
+---
+layout: post2
+title: 'Video: mirá los goles de Peñarol y las principales jugadas del título del Apertura ante Defensor Sporting'
+description: 'Video: mirá los goles de Peñarol y las principales jugadas del título del Apertura ante Defensor Sporting'
+category: noticias
+image: 'https://media.elobservador.com.uy/p/d4bcf4e4ed5fb0366300688a9e35608a/adjuntos/362/imagenes/100/495/0100495220/1000x0/smart/penarol-campeon-del-torneo-apertura-2024.jpg'
+date: 2024-05-19T10:38:00 +2:00:00
+---
+
+<html>
+<div class='mt-5 mb-4 dyuthi_regular top-top-style'>
+   <h1 class='kustom_culture black-title'>
+      {{ page.title }}
+   </h1>
+   <strong>{{ page.description }}</strong>
+   <hr>
+</div>
+<img style='width: 100%' src='{{ page.image | prepend: base.url }}'>
+[<article class="content-free-false article-body article-body--first-paragraph" data-td-script-src="https://www.elobservador.com.uy/js-custom/vendor/jquery/jquery-3.6.0.min-min-version-1716005226.js">
+<p><strong><a class="agrupador" href="https://www.elobservador.com.uy/club-atletico-penarol-a42904" rel="42904">Peñarol</a> l</strong>e ganó muy bien 2-0 a <a class="agrupador" href="https://www.elobservador.com.uy/tag/defensor-sporting" rel="16984">Defensor Sporting</a> este sábado en la noche en el Parque Franzini y se coronó campeón anticipado, a falta de dos fechas por terminar, del <a class="agrupador" href="https://www.elobservador.com.uy/tag/torneo-apertura" rel="36532">Torneo Apertura</a>.</p></article>, <article class="article-body content-protected-false article-body--second-paragraph"> <p>Los dirigidos por Diego Aguirre fueron superiores en los 90 minutos<strong> y rubricaron un certamen espectacular.</strong></p> </article>, <article class="article-body content-protected-false article-body--second-paragraph"><p> Los carboneros lo ganaron con luz <strong>y por el momento, mantienen el invicto.</strong></p> </article>, <article class="article-body content-protected-false article-body--second-paragraph"><p> Maximiliano Olivera y Nahuel Acosta fueron los autores de los goles que le terminaron dando a los aurinegros el primer título en juego que hubo en el año.</p></article>, <article class="article-body content-protected-false article-body--third-paragraph"><h2> El video de los goles y las principales incidencias del partido Defensor Sporting vs Peñarol</h2> <p>Los carboneros se pusieron en ventaja en la primera parte tras un enorme remate de Damián García que pegó en el travesaño y allí apareció Silvera con su oportunismo para anotar el 1-0.</p> <p>Luego, <strong>el goleador carbonero se retiraría lesionado.</strong></p> <p>El segundo tanto del campeón llegó sobre la hora en un gran contragolpe y una jugada entre Diego Sosa, Leonardo Fernández y Nahuel Acosta, quien solo tuvo que empujarla a la red.</p> <p><strong>Aquí se puede ver el video:</strong></p> <div class="embed_cont type_freetext" contenteditable="false" data-provider="Twitter" id="embed6347_wrap" rel="freetext"><div class="embed_options" id="embed6347_opts" rel="opt"> Embed - https://publish.twitter.com/oembed?url=https://twitter.com/tenfieldoficial/status/1791994930459545946&amp;partner=&amp;hide_thread=false<span class="embed_colapse less" id="embed6347_colapse" onclick="parent.parent.TinyMCETdcuerpo.preview_embed('embed6347')"></span><span class="embed_delete less" id="embed6347_delete" onclick="parent.parent.TinyMCETdcuerpo.delete_embed('embed6347')"></span></div> <div class="embed_content" id="embed6347_content"><div id="embed6347_embed"> <blockquote class="twitter-tweet" data-td-script-src="https://platform.twitter.com/widgets.js"><p dir="ltr" lang="es"> De la mano de Leo Fernández, de Gastón Ramírez y, sobre todo, de Diego Aguirre, sinónimo de gloria aurinegra, <a href="https://twitter.com/OficialCAP?ref_src=twsrc%5Etfw">@OficialCAP</a> arrasó en el Torneo Apertura y, tras vencer a <a href="https://twitter.com/DefensorSp?ref_src=twsrc%5Etfw">@DefensorSp</a> 2 a 0, obtuvo el pasaje a la definición del Campeonato Uruguayo. Este es nuestro compacto. <a href="https://t.co/2RLnafByKo">pic.twitter.com/2RLnafByKo</a></p> — Tenfieldoficial (@tenfieldoficial) <a href="https://twitter.com/tenfieldoficial/status/1791994930459545946?ref_src=twsrc%5Etfw">May 19, 2024</a></blockquote></div> </div> <div class="embed_epigrafe" id="embed6347_epigrafe"></div> <div class="embed_copyright" id="embed6347_copyright"></div></div> <p></p></article>]
+<div style='height: 300px;'></div>
+</html>

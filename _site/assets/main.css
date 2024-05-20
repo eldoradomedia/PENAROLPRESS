@@ -3496,7 +3496,7 @@ body a:hover { color: #8a5906; text-decoration: none; }
 
 .aire { padding: 1rem; margin: 0px; }
 
-h2, .h2, h6, .h6 { display: flex; justify-content: space-between; }
+h1, .h1, h2, .h2, h5, .h5 { display: flex; justify-content: space-between; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: kustom_cultureregular; }
 
