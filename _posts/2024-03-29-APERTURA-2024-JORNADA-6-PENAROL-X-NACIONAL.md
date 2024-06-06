@@ -5,7 +5,7 @@ sub-title: Apertura · Jornada 6
 torneo: Apertura
 category: partidos-completos
 jornada: 6
-partido: PEÑAROL X NACIONAL
+partido: Peñarol x Nacional
 local: PEÑAROL
 visitante: NACIONAL
 image: '/images/PEN-NAC.png'
@@ -21,12 +21,13 @@ tags:
 date: 2024-03-29T15:00:00 -04:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style"> 
+<div class="mt-5 mb-4 dyuthi_regular"> 
     <h1 class="text-success kustom_culture"> 
                 {{ page.title }} 
     </h1> 
+    <hr>
     <strong>{{ page.sub-title }}</strong>
-    <hr> 
+     
 </div>
 <div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
     <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-fes8dlwtrll8.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 

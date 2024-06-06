@@ -8,12 +8,29 @@
         {% include navbar.html %}
         <div class="container">
             <div class="row">
-                <div class="col-md-9 main">
-                    <div class="noticias" style="padding: 0 40 40 0;">
+                <div class="col-md-12 title">
+                    <div class='mt-5 mb-4'>
+                        <h1 class='kustom_culture black-title'>
+                           {{ page.title }}
+                        </h1>
+                        <hr>
+                        <p class=""><strong>{{ page.description }}</strong></p>
+                        <div class="inlines card-text list-text">
+                            <span>{{ page.date_es }}</span>
+                            <span class="btn btn-success"><i class="fa fa-share-alt fa-fw" aria-hidden="true"></i>share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7 main">
+                    <div class="noticias" style="padding: 0 20 20 0;">
                         {{ content }}
                     </div>
                 </div>
-                <div class="col-md-3 sidebar">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
                     {% include sidebardefault.html %}
                 </div>
             </div>

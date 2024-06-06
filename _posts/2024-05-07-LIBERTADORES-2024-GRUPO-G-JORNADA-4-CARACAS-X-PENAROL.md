@@ -6,7 +6,7 @@ torneo: Libertadores
 category: partidos-completos
 jornada: 4
 GRUPO: G
-partido: CARACAS X PEÑAROL
+partido: Caracas x Peñarol
 local: CARACAS
 visitante: PEÑAROL
 image: '/images/CFC-PEN.png'
@@ -23,12 +23,13 @@ tags:
 date: 2024-05-07T19:00:00 -03:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style">
+<div class="mt-5 mb-4 dyuthi_regular">
     <h1 class="text-success kustom_culture">
         {{ page.title }} 
     </h1>
-    <strong>{{ page.sub-title }}</strong>
     <hr>
+    <strong>{{ page.sub-title }}</strong>
+    
 </div>
 <div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
     <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-p68fa9r6sj7m.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 

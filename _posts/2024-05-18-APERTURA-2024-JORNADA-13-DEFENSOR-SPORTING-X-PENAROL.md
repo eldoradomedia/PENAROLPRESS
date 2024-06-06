@@ -5,7 +5,7 @@ sub-title: Apertura · Jornada 13
 torneo: Apertura
 category: partidos-completos
 jornada: 13
-partido: DEFENSOR SP X PEÑAROL
+partido: Defensor Sp x Peñarol
 local: DEFENSOR SP
 visitante: PEÑAROL
 image: '/images/DSC-PEN.png'
@@ -21,7 +21,7 @@ tags:
 date: 2024-05-18T18:00:00 -03:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style"> 
+<div class="mt-5 mb-4 dyuthi_regular"> 
     <h1 class="text-success kustom_culture"> 
                 {{ page.title }} 
     </h1>
@@ -35,3 +35,4 @@ date: 2024-05-18T18:00:00 -03:00:00
 <h5>
     <a href="https://uqload.to/xwxx5esejumg.html" target=_blank><img src="https://en8.uqload.to/i/01/02440/xwxx5esejumg_t.jpg"><br>APERTURA 2024 · JORNADA 13 · DEFENSOR SPORTING X PEÑAROL</a><br>[1920x1104, 01:40:01]
 </h5>
+

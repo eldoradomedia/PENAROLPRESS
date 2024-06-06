@@ -5,7 +5,7 @@ sub-title: Apertura · Jornada 2
 torneo: Apertura
 category: partidos-completos
 jornada: 2
-partido: PEÑAROL X MIRAMAR MISIONES
+partido: Peñarol x Miramar M
 local: PEÑAROL
 visitante: MIRAMAR MISIONES
 image: '/images/PEN-MMI.png'
@@ -21,12 +21,13 @@ tags:
 date: 2024-02-24T19:00:00 -03:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style"> 
+<div class="mt-5 mb-4 dyuthi_regular"> 
     <h1 class="text-success kustom_culture"> 
                 {{ page.title }} 
-    </h1> 
-    <strong>{{ page.sub-title }}</strong>
+    </h1>
     <hr> 
+    <strong>{{ page.sub-title }}</strong>
+     
 </div>
 <div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
     <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-x54ei35pt7fw.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 

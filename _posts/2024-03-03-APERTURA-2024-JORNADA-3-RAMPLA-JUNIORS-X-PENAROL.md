@@ -5,7 +5,7 @@ sub-title: Apertura · Jornada 3
 torneo: Apertura
 category: partidos-completos
 jornada: 3
-partido: RAMPLA JUNIORS X PEÑAROL
+partido: Rampla Juniors x Peñarol
 local: RAMPLA JUNIORS
 visitante: PEÑAROL
 image: '/images/RAM-PEN.png'
@@ -21,12 +21,13 @@ tags:
 date: 2024-03-03T19:00:00 -03:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style"> 
+<div class="mt-5 mb-4 dyuthi_regular"> 
     <h1 class="text-success kustom_culture"> 
                 {{ page.title }} 
     </h1> 
+    <hr>
     <strong>{{ page.sub-title }}</strong>
-    <hr> 
+    
 </div>
 <div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
     <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-4w2xt1jao565.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 

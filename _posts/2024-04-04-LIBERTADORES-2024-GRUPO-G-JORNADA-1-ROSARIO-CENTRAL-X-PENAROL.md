@@ -6,7 +6,7 @@ torneo: Libertadores
 category: partidos-completos
 jornada: 1
 GRUPO: G
-partido: ROSARIO CENTRAL X PEÑAROL
+partido: Rosario Central x Peñarol
 local: ROSARIO CENTRAL
 visitante: PEÑAROL
 image: '/images/CEN-PEN.png'
@@ -23,12 +23,13 @@ tags:
 date: 2024-04-04T19:00:00 -03:00:00
 ---
 
-<div class="mt-5 mb-4 dyuthi_regular top-top-style">
+<div class="mt-5 mb-4 dyuthi_regular">
     <h1 class="text-success kustom_culture">
         {{ page.title }} 
     </h1>
-    <strong>{{ page.sub-title }}</strong>
     <hr>
+    <strong>{{ page.sub-title }}</strong>
+    
 </div>
 <div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
     <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-avkepylzpnm2.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 
