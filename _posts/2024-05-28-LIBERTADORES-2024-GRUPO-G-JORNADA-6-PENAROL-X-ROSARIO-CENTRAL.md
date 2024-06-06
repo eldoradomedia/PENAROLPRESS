@@ -23,12 +23,12 @@ tags:
 date: 2024-05-18T19:00:00 -03:00:00
 ---
 
+<html>
 <div class="mt-5 mb-4 dyuthi_regular">
     <h1 class="text-success kustom_culture">
         {{ page.title }} 
     </h1>
     <p class="advertencia"><strong>{{ page.sub-title }}</strong></p>
 </div>
-<div class="container-fluid" style="padding: 0;">
-    <iframe class="youtube mb-10 w-100 h-100" src="https://uqload.to/embed-d4kl662filuh.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 
-</div>
+<div class="embed-responsive embed-responsive-16by9"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-td-src-property="https://www.youtube.com/embed/UTJTXJcFEQs?feature=oembed" frameborder="0" class="youtube mb-10 w-100 h-100" referrerpolicy="strict-origin-when-cross-origin" src="https://uqload.to/embed-d4kl662filuh.html" title="OBSESIONADOS"></iframe></div>
+</html>

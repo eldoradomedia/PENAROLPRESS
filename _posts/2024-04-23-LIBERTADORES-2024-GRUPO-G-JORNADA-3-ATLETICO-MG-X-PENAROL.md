@@ -31,9 +31,7 @@ date: 2024-04-23T20:00:00 -04:00:00
     <strong>{{ page.sub-title }}</strong>
     
 </div>
-<div class="container-fluid w-100 h-100 border-0" style="padding: 0;">
-    <iframe class="position-relative w-100 h-100 border-0" src="https://uqload.to/embed-t2gzqdilhwyg.html" frameborder=0 marginwidth=0 marginheight=0 scrolling=NO allowfullscreen style="padding: 0;margin: 0;"></iframe> 
-</div>
+<div class="embed-responsive embed-responsive-16by9"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-td-src-property="https://www.youtube.com/embed/UTJTXJcFEQs?feature=oembed" frameborder="0" class="youtube mb-10 w-100 h-100" referrerpolicy="strict-origin-when-cross-origin" src="https://uqload.to/embed-t2gzqdilhwyg.html" title="OBSESIONADOS"></iframe></div>
 
 
 
