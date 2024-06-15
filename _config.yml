@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:  PARTIDOS COMPLETOS DE PEÑAROL
+title:  CAPEÑAROL
 email:  eldoradosportmedia@gmail.com
-description: "SITIO DEDICADO A DIFUNDIR PARTIDOS COMPLETOS DE PEÑAROL.
-             TEMPORADA 2024. NOTICIAS DE LA ACTUALIDAD AURINEGRA Y LINKS DE STREAMS 
-             EN VIVO A LA HORA QUE JUEGA PEÑAROL PARA QUE PUEDAN SEGUIR
-             LOS PARTIDOS EN VIVO DE PEÑAROL"
-url: https://eldoradomedia.github.io/PENAROLPRESS
+description: "NOTICIAS Y ACTUALIDAD AURINEGRA @SCRAPERELBOSTERO®, PARTIDOS COMPLETOS DE PEÑAROL youtube.com/@OFICIALCAPpER HRVAS Y HRVASTISKA"
+host: 192.168.0.10:4000
 repository: https://github.com/eldoradomedia/PENAROLPRESS
+#fullurl: zoo1891.crabdance.com
+#repository-id: R_kgDOL5yT1g
+#repository: eldoradomedia/PENAROLPRESS.git
 twitter_username: CAPPRESS1587551
 github_username: eldoradomedia
 author:

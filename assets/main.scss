@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "custom";
-@import "bootstrap/scss/bootstrap";
+@import "custom", "bootstrap/scss/bootstrap";
+
 
 $color_1: #ffffe0;
 $color_2: #f6881e;
@@ -44,6 +44,22 @@ $background-color_2: #f8fbc0;
 	src: url('{{ site.url }}/assets/css/fonts/gaspar_regular-webfont.woff2') format('woff2'), url('{{ site.url }}/assets/css/fonts/gaspar_regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
+}
+
+@font-face {
+	font-display:swap;
+	font-family:Archivo900;
+	font-style:normal;
+	font-weight:900;
+	src:url('{{ site.url }}/assets/css/fonts/archivo_900.woff2') format("woff2");
+}
+
+@font-face {
+	font-display:swap;
+	font-family:Archivo700;
+	font-style:normal;
+	font-weight:700;
+	src:url('{{ site.url }}/assets/css/fonts/archivo_700.woff2') format("woff2");
 }
 
 .artifacto_1 {
@@ -212,13 +228,13 @@ h6 {
 
 .warning {
 	color: #1a1a1a;
-	padding: 1rem;
-	background: #fff8c1;
+	padding: 0.05rem;
+	background: #b36d0479; //fff8c1//
 	font-family: source_sans_proregular;
 	font-size: 16px;
 	font-weight: 700;
-	border: 0.05rem solid #1a1a1a;
-	border-radius: 8px;
+	border: 0.05rem solid #a56608;
+	//border-radius: 8px;//
 }
 
 .varning {
@@ -260,6 +276,31 @@ h6 {
 	font-size: 18px;
 	font-weight: 400;
 	opacity: 0.75;
+}
+
+.referi-news p {
+	color: #1a1a1a;
+	font-size:20px;
+	font-family: Archivo900;
+	font-weight: 900;
+}
+
+.warning .extra-info {
+	color: #212429;
+	font-size:18px;
+	font-family: Archivo900;
+	font-weight: 900;
+	opacity: 0.85;
+	padding: 0.2em;
+}
+
+.card-text .extra-info {
+	color: #212429;
+	font-size:18px;
+	font-family: Archivo900;
+	font-weight: 900;
+	opacity: 0.85;
+	padding: 0.2em;
 }
 
 .card.minw-1 {

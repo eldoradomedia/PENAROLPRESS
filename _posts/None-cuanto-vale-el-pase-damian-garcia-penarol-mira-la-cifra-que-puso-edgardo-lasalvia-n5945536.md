@@ -1,0 +1,17 @@
+---
+layout: post2
+title: '¿Cuánto vale el pase de Damián García de Peñarol? Mirá la cifra que puso Edgardo Lasalvia'
+description: 'Mirá el precio que Edgardo Lasalvia fijó para el pase de Damián García, el volante central de Peñarol'
+category: noticias
+image: 'https://media.elobservador.com.uy/p/9e385d3dbc3d16c329d308563979c35f/adjuntos/362/imagenes/100/506/0100506646/1000x0/smart/20240602-damian-garcia-festejo-fenix-penarol-torneo-apertura-2024-campeonato-uruguayojpg.jpg'
+date: NoneT13:15:00 +2:00:00
+date_es: '
+							12 de junio  2024 - 13:15hs
+					'
+---
+
+<html>
+<img style='width: 100%' src='{{ page.image | prepend: base.url }}'>
+<p>El volante de <strong><a class="agrupador" href="https://www.elobservador.com.uy/club-atletico-penarol-a42904" rel="42904">Peñarol</a></strong><a class="agrupador" href="https://www.elobservador.com.uy/tag/damian-garcia" rel="79382"> Damián García</a> se transformó en uno de los grandes activos que tiene el club para exportar y generar caja. El campeón del mundo sub 20 en 2023 es titular indiscutido en el mediocampo de Peñarol y con 20 años se ha transformado en una de las piezas claves de la columna vertebral del equipo. </p><p>Su contrato con Peñarol vence el próximo 31 de diciembre. </p><p>Semanas atrás, se generó un intercambio mediático entre su representante, Edgardo Lasalvia, con el vicepresidente Eduardo Zaidensztat. </p><p><a href="https://www.elobservador.com.uy/no-se-puede-pagar-un-alquiler-la-denuncia-lasalvia-una-figura-penarol-y-su-critica-zaidensztat-n5940979" rel="follow" target="_blank">Lasalvia criticó el salario</a> que percibe el futbolista. </p><p> “Lo que pasa es que los contratos se vencen y no tenés obligación de renovar.Y menos si me ofreces dos pesitos, como hizo el vicepresidente. A Damián García le ofreció dos pesos de renovación. De hecho se le vence el contrato porque hizo un contrato corto, porque no apostó nunca por él”, expresó Lasalvia el 20 de mayo.</p><p>Días después, Ignacio Ruglio le puso paños fríos al asunto, habló con ambas partes y tendió los puentes del entendimiento. </p><p>El presidente de Peñarol volvió este miércoles tras viajar a México y acordar con Toluca la <a href="https://www.elobservador.com.uy/futbol/el-estado-whatsapp-ignacio-ruglio-al-vicepresidente-toluca-tiene-penarol-un-nuevo-aliado-n5945362" rel="follow" target="_blank">renovación del préstamo por Leonardo Fernández</a> y además, la contratación de Facundo Batista. </p><h2>El nuevo contrato que tendrá Damián García en Peñarol</h2><p>En las próximas horas las partes se juntarán para acordar un nuevo contrato que contemplará <strong>un importante incremento salarial y una fuerte cláusula de rescisión contractual</strong> que tendrá un piso de ocho cifras (US$ 10.000.000). </p><p>En entrevista con Minuto 1 que se emite por Carve Deportiva, AM 1010, Lasalvia reveló que el pase de García hoy tiene un piso de <strong>US$ 4 millones por el 80%</strong> ya que Peñarol se reservará en una futura negociación el <strong>20% de su ficha. </strong></p><p>"Ser el 5 titular de Peñarol con 20 años no es para cualquiera", dijo. </p><p>El empresario también reveló que en un entrenamiento, conversó durante 20 minutos con Diego Aguirre e Ignacio Ruglio y ambos le pidieron que el jugador <strong>se quede hasta fin de año. </strong></p><p>Por lo tanto, las ofertas que se reciban serán analizadas para el 2025. </p><p></p><p></p>
+<div style='height: 300px;'></div>
+</html>
