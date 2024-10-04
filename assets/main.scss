@@ -16,32 +16,39 @@ $font-family_2: 'dyuthiregular';
 $font-family_3: 'archivosemibold';
 $font-family_4: 'gasparregular';
 $font-family_5: dyuthiregular;
-$font-family_6: 'archivo_regular';
+$font-family_6: 'Archivo';
 $font-family_7: kustom_cultureregular;
 $background-color_1: #212429;
 $background-color_2: #f8fbc0;
 
 @font-face {
+	font-family: 'Archivo';
+	src: url('{{ site.url | relative_url }}/assets/css/fonts/archivo-regular-webfont.woff2') format('woff2'), url('{{ site.url | relative_url }}/assets/css/fonts/archivo-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'kustom_cultureregular';
-	src: url('{{ site.url }}/assets/css/fonts/kustomculture-regular-webfont.woff2') format('woff2'), url('{{ site.url }}/assets/css/fonts/kustomculture-regular-webfont.woff') format('woff');
+	src: url('{{ site.url | relative_url }}/assets/css/fonts/kustomculture-regular-webfont.woff2') format('woff2'), url('{{ site.url | relative_url }}/assets/css/fonts/kustomculture-regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'dyuthiregular';
-	src: url('{{ site.url }}/assets/css/fonts/dyuthi-regular-webfont.woff2') format('woff2'), url('{{ site.url }}/assets/css/fonts/dyuthi-regular-webfont.woff') format('woff');
+	src: url('{{ site.url | relative_url }}/assets/css/fonts/dyuthi-regular-webfont.woff2') format('woff2'), url('{{ site.url | relative_url }}/assets/css/fonts/dyuthi-regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'archivosemibold';
-	src: url('{{ site.url }}/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff2') format('woff2'), url('{{ site.url }}/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff') format('woff');
+	src: url('{{ site.url | relative_url }}/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff2') format('woff2'), url('{{ site.url | relative_url }}/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'gasparregular';
-	src: url('{{ site.url }}/assets/css/fonts/gaspar_regular-webfont.woff2') format('woff2'), url('{{ site.url }}/assets/css/fonts/gaspar_regular-webfont.woff') format('woff');
+	src: url('{{ site.url | relative_url }}/assets/css/fonts/gaspar_regular-webfont.woff2') format('woff2'), url('{{ site.url | relative_url }}/assets/css/fonts/gaspar_regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -51,7 +58,7 @@ $background-color_2: #f8fbc0;
 	font-family:Archivo900;
 	font-style:normal;
 	font-weight:900;
-	src:url('{{ site.url }}/assets/css/fonts/archivo_900.woff2') format("woff2");
+	src:url('{{ site.url | relative_url }}/assets/css/fonts/archivo_900.woff2') format("woff2");
 }
 
 @font-face {
@@ -59,7 +66,7 @@ $background-color_2: #f8fbc0;
 	font-family:Archivo700;
 	font-style:normal;
 	font-weight:700;
-	src:url('{{ site.url }}/assets/css/fonts/archivo_700.woff2') format("woff2");
+	src:url('{{ site.url | relative_url }}/assets/css/fonts/archivo_700.woff2') format("woff2");
 }
 
 .artifacto_1 {
@@ -95,6 +102,10 @@ $background-color_2: #f8fbc0;
 	font-family: $font-family_4;
 }
 
+.archivo {
+	font-family: $font-family_6;
+}
+
 #countdown {
 	text-align: left;
 }
@@ -108,10 +119,10 @@ $background-color_2: #f8fbc0;
 
 body {
 	a {
-		color: $color_3;
+		color: #d4aa00;
 		text-decoration: none;
 		&:hover {
-			color: #f6881ede;
+			color: $color_3;
 			text-decoration: none;
 		}
 	}
@@ -120,6 +131,7 @@ body {
 .noticias {
 	/*font-family: $font-family_3;*/
 	font-size: 20px;
+	font-family: $font-family_6;
 }
 
 .noticias p {
@@ -161,7 +173,7 @@ h6 {
 }
 
 .advertencia {
-	font-family: $font-family_3;
+	font-family: $font-family_6;
 	font-size: 20px;
 }
 
@@ -206,6 +218,7 @@ h6 {
 }
 
 .second-title {
+	font-family: $font-family_3;
 	font-size: 22px;
 	font-weight: 500;
 	line-height: 1.2;
@@ -229,19 +242,19 @@ h6 {
 .warning {
 	color: #1a1a1a;
 	padding: 0.05rem;
-	background: #b36d0479; //fff8c1//
+	//background: #b36d0479; //fff8c1//
 	font-family: source_sans_proregular;
 	font-size: 16px;
 	font-weight: 700;
-	border: 0.05rem solid #a56608;
+	border-bottom: 0.2rem solid #a56608;
 	//border-radius: 8px;//
 }
 
 .varning {
-	background: #5a391b;
-	color: $color_2;
+	background: $color_4;
+	color: $color_1;
 	padding: 1rem;
-	font-family: source_sans_proregular;
+	font-family: Archivo700;
 	font-size: 20px;
 	font-weight: 700;
 	border-radius: 8px;
@@ -278,29 +291,30 @@ h6 {
 	opacity: 0.75;
 }
 
-.referi-news p {
-	color: #1a1a1a;
+/*.card-body */.referi-news {
+	background: $color_4;
+	color: $color_1;
+	padding: 0.4rem;
 	font-size:20px;
-	font-family: Archivo900;
-	font-weight: 900;
+	/*opacity: 0.85;*/
+	font-family: Archivo;
+	/*font-weight: 700;*/
 }
 
 .warning .extra-info {
 	color: #212429;
 	font-size:18px;
-	font-family: Archivo900;
-	font-weight: 900;
-	opacity: 0.85;
-	padding: 0.2em;
+	opacity: 0.80;
+	font-family: Archivo;
+	font-weight: 700;
 }
 
 .card-text .extra-info {
 	color: #212429;
 	font-size:18px;
-	font-family: Archivo900;
-	font-weight: 900;
-	opacity: 0.85;
-	padding: 0.2em;
+	opacity: 0.80;
+	font-family: Archivo;
+	font-weight: 700;
 }
 
 .card.minw-1 {
@@ -538,9 +552,14 @@ body {
 }
 .card-text {
 	&:last-child {
-		margin-bottom: 0;
+		margin-botto: 2rem;
 	}
 }
+
+div .referi-news {
+	margin-bottom: 0px;
+}
+
 .card-columns {
 	padding-top: 15px;
 	.card {
@@ -614,7 +633,6 @@ body {
 	font-size: 20px;
 	font-weight: 400;
 	font-style: normal;
-	opacity: 0.75;
 	line-height: 25px;
 	text-overflow: clip;
 	font-family: $font-family_3;

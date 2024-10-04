@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:  CAPEÑAROL
-email:  eldoradosportmedia@gmail.com
-description: "NOTICIAS Y ACTUALIDAD AURINEGRA @SCRAPERELBOSTERO®, PARTIDOS COMPLETOS DE PEÑAROL youtube.com/@OFICIALCAPpER HRVAS Y HRVASTISKA"
-host: 192.168.0.10:4000
-repository: https://github.com/eldoradomedia/PENAROLPRESS
+title:  BOSTERO.DEV
+email:  webmaster@bostero.dev
+description: "NOTICIAS Y ACTUALIDAD AURINEGRA @SCRAPERELBOSTERO, PARTIDOS COMPLETOS DE PEÑAROL yt: @OFICIALCAPpER"
+url: https://bostero.dev
+repository: https://github.com/eldoradomedia/PENAROLPRESS.git
 #fullurl: zoo1891.crabdance.com
 #repository-id: R_kgDOL5yT1g
 #repository: eldoradomedia/PENAROLPRESS.git

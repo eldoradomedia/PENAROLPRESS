@@ -3468,12 +3468,13 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
   .d-print-flex { display: flex !important; }
   .d-print-inline-flex { display: inline-flex !important; }
   .d-print-none { display: none !important; } }
-@font-face { font-family: 'kustom_cultureregular'; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/kustomculture-regular-webfont.woff2") format("woff2"), url("http://192.168.0.10:4000:4000/assets/css/fonts/kustomculture-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'dyuthiregular'; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/dyuthi-regular-webfont.woff2") format("woff2"), url("http://192.168.0.10:4000:4000/assets/css/fonts/dyuthi-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'archivosemibold'; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff2") format("woff2"), url("http://192.168.0.10:4000:4000/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'gasparregular'; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/gaspar_regular-webfont.woff2") format("woff2"), url("http://192.168.0.10:4000:4000/assets/css/fonts/gaspar_regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-display: swap; font-family: Archivo900; font-style: normal; font-weight: 900; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/archivo_900.woff2") format("woff2"); }
-@font-face { font-display: swap; font-family: Archivo700; font-style: normal; font-weight: 700; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/archivo_700.woff2") format("woff2"); }
+@font-face { font-family: 'Archivo'; src: url("http://localhost:4000/assets/css/fonts/archivo-regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/archivo-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'kustom_cultureregular'; src: url("http://localhost:4000/assets/css/fonts/kustomculture-regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/kustomculture-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'dyuthiregular'; src: url("http://localhost:4000/assets/css/fonts/dyuthi-regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/dyuthi-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'archivosemibold'; src: url("http://localhost:4000/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/archivo-variablefont_wdthwght-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'gasparregular'; src: url("http://localhost:4000/assets/css/fonts/gaspar_regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/gaspar_regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-display: swap; font-family: Archivo900; font-style: normal; font-weight: 900; src: url("http://localhost:4000/assets/css/fonts/archivo_900.woff2") format("woff2"); }
+@font-face { font-display: swap; font-family: Archivo700; font-style: normal; font-weight: 700; src: url("http://localhost:4000/assets/css/fonts/archivo_700.woff2") format("woff2"); }
 .artifacto_1 { height: 0.7rem; background-color: #f6881e; }
 
 .artifacto_2 { height: 1.75rem; background-color: #8a5906; margin-bottom: 0.25rem; margin-top: 0; }
@@ -3488,14 +3489,16 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
 
 .gaspar_regular { font-family: "gasparregular"; }
 
+.archivo { font-family: "Archivo"; }
+
 #countdown { text-align: left; }
 
 .footer { background-color: #212429; color: #ffffe0; bottom: 0; font-family: dyuthiregular; }
 
-body a { color: #8a5906; text-decoration: none; }
-body a:hover { color: #f6881ede; text-decoration: none; }
+body a { color: #d4aa00; text-decoration: none; }
+body a:hover { color: #8a5906; text-decoration: none; }
 
-.noticias { /*font-family: $font-family_3;*/ font-size: 20px; }
+.noticias { /*font-family: $font-family_3;*/ font-size: 20px; font-family: "Archivo"; }
 
 .noticias p { color: #666666; }
 
@@ -3519,7 +3522,7 @@ h4, .h4 { font-family: kustom_cultureregular; }
 
 h6, .h6 { font-family: kustom_cultureregular; }
 
-.advertencia { font-family: "archivosemibold"; font-size: 20px; }
+.advertencia { font-family: "Archivo"; font-size: 20px; }
 
 .cardfix { white-space: nowrap; max-width: 270px; padding: 0rem; }
 
@@ -3535,15 +3538,15 @@ h6, .h6 { font-family: kustom_cultureregular; }
 
 .match-countdown { font-size: 28px; font-weight: 500; line-height: 1.2; color: var(--bs-heading-color); }
 
-.second-title { font-size: 22px; font-weight: 500; line-height: 1.2; color: var(--bs-heading-color); }
+.second-title { font-family: "archivosemibold"; font-size: 22px; font-weight: 500; line-height: 1.2; color: var(--bs-heading-color); }
 
 .titulo-principal { font-size: 34px; font-weight: 500; line-height: 1.2; color: var(--bs-heading-color); }
 
 .border-callout { border-left: 5px solid #8a5906; border-radius: 0; background: #f6881e40; padding: 0; }
 
-.warning { color: #1a1a1a; padding: 0.05rem; background: #b36d0479; font-family: source_sans_proregular; font-size: 16px; font-weight: 700; border: 0.05rem solid #a56608; }
+.warning { color: #1a1a1a; padding: 0.05rem; font-family: source_sans_proregular; font-size: 16px; font-weight: 700; border-bottom: 0.2rem solid #a56608; }
 
-.varning { background: #5a391b; color: #f6881e; padding: 1rem; font-family: source_sans_proregular; font-size: 20px; font-weight: 700; border-radius: 8px; }
+.varning { background: #212429; color: #ffffe0; padding: 1rem; font-family: Archivo700; font-size: 20px; font-weight: 700; border-radius: 8px; }
 
 .sidebar { position: fixed; max-width: 20%; }
 
@@ -3557,11 +3560,12 @@ h6, .h6 { font-family: kustom_cultureregular; }
 
 .list-text p { color: #666666; font-size: 18px; font-weight: 400; opacity: 0.75; }
 
-.referi-news p { color: #1a1a1a; font-size: 20px; font-family: Archivo900; font-weight: 900; }
+/*.card-body */
+.referi-news { background: #212429; color: #ffffe0; padding: 0.4rem; font-size: 20px; /*opacity: 0.85;*/ font-family: Archivo; /*font-weight: 700;*/ }
 
-.warning .extra-info { color: #212429; font-size: 18px; font-family: Archivo900; font-weight: 900; opacity: 0.85; padding: 0.2em; }
+.warning .extra-info { color: #212429; font-size: 18px; opacity: 0.80; font-family: Archivo; font-weight: 700; }
 
-.card-text .extra-info { color: #212429; font-size: 18px; font-family: Archivo900; font-weight: 900; opacity: 0.85; padding: 0.2em; }
+.card-text .extra-info { color: #212429; font-size: 18px; opacity: 0.80; font-family: Archivo; font-weight: 700; }
 
 .card.minw-1 { min-width: 1rem; }
 
@@ -3575,7 +3579,7 @@ h6, .h6 { font-family: kustom_cultureregular; }
 
 .embed-responsive iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-@font-face { font-family: 'source_sans_proregular'; src: url("http://192.168.0.10:4000:4000/assets/css/fonts/source-sans-pro.regular-webfont.woff2") format("woff2"), url("http://192.168.0.10:4000:4000/assets/css/fonts/source-sans-pro.regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'source_sans_proregular'; src: url("http://localhost:4000/assets/css/fonts/source-sans-pro.regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/source-sans-pro.regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
 .article-body > p { color: #121212; font-weight: 300; line-height: 1.5em; margin-bottom: 2.25rem; }
 
 .article-body p { position: relative; }
@@ -3613,7 +3617,9 @@ body .footer { margin-top: auto; }
 
 .card-subtitle { margin-bottom: 0; font-weight: 400; margin-top: 0.2rem; }
 
-.card-text:last-child { margin-bottom: 0; }
+.card-text:last-child { margin-botto: 2rem; }
+
+div .referi-news { margin-bottom: 0px; }
 
 .card-columns { padding-top: 15px; }
 .card-columns .card { margin-bottom: 12px !important; }
@@ -3643,7 +3649,7 @@ body .footer { margin-top: auto; }
 .footer .footer-social-link { width: 2.8rem; height: 2.8rem; display: flex; justify-content: center; align-items: center; border-radius: 4rem; transition: 0.3s linear; }
 .footer .footer-social-link:hover { background-color: #bac1c9; }
 
-.card-text { font-size: 20px; font-weight: 400; font-style: normal; opacity: 0.75; line-height: 25px; text-overflow: clip; font-family: source_sans_proregular; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.card-text { font-size: 20px; font-weight: 400; font-style: normal; line-height: 25px; text-overflow: clip; font-family: source_sans_proregular; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 
 .secondary { font-size: 16px; font-weight: 400; font-style: normal; opacity: 0.75; line-height: 25px; text-overflow: clip; font-family: source_sans_proregular; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 
