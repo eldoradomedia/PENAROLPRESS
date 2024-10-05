@@ -9,6 +9,11 @@ partido: Fénix x Peñarol
 local: FÉNIX
 visitante: PEÑAROL
 image: '/images/FEN-PEN.png'
+image-local: 'FEN.png'
+image-away: 'PEN.png'
+torneo-corriente: 'apertura fecha 15'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/zuyabd1b334t.html
 video: AVC, 1280x720, 59.940 fps
 audio: mp3, 1ch, 44100 Hz

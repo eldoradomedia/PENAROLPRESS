@@ -10,6 +10,11 @@ partido: Peñarol x Caracas
 local: PEÑAROL
 visitante: CARACAS
 image: '/images/PEN-CFC.png'
+image-local: 'PEN.png'
+image-away: 'CFC.png'
+torneo-corriente: 'libertadores fecha 3'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/iz863w76rvha.html
 video: AVC, 1280x720, 29.970 fps
 audio: mp3, 2ch, 22050 Hz, 128 kbps

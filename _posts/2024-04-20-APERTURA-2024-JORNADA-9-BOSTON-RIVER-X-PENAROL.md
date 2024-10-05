@@ -9,6 +9,11 @@ partido: Boston River x Peñarol
 local: BOSTON RIVER
 visitante: PEÑAROL
 image: '/images/BRI-PEN.png'
+image-local: 'BRI.png'
+image-away: 'PEN.png'
+torneo-corriente: 'apertura fecha 9'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/kpnw1p81vg3j.html
 video: AVC, 1280x720, 29.970 fps
 audio: vorbis, 2ch, 48000 Hz, 128 kbps

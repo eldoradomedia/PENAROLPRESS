@@ -9,6 +9,11 @@ partido: Rampla Juniors x Peñarol
 local: RAMPLA JUNIORS
 visitante: PEÑAROL
 image: '/images/RAM-PEN.png'
+image-local: 'RAM.png'
+image-away: 'PEN.png'
+torneo-corriente: 'apertura fecha 3'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/4w2xt1jao565.html
 video: AVC, 1024x576, 30.000 fps
 audio: aac, 2ch, 48000 Hz, 128 kbps

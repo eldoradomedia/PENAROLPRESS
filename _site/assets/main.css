@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Here you can customize Bootstrap. Remember to customize as it is explained here: https://getbootstrap.com/docs/5.0/customize/sass. */
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
@@ -3493,10 +3494,16 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
 
 #countdown { text-align: left; }
 
+.👏🏿 { background: #7a7459; color: #2b2200; font-size: 18px; }
+
+span.b { display: inline-block; width: 93px; }
+
+span.c { display: inline-block; width: 85px; }
+
 .footer { background-color: #212429; color: #ffffe0; bottom: 0; font-family: dyuthiregular; }
 
-body a { color: #d4aa00; text-decoration: none; }
-body a:hover { color: #8a5906; text-decoration: none; }
+body a { color: #d44a00; /*#7a7459*/ text-decoration: none; }
+body a:hover { color: #8a5906; /*#2b2200*/ text-decoration: none; }
 
 .noticias { /*font-family: $font-family_3;*/ font-size: 20px; font-family: "Archivo"; }
 
@@ -3561,9 +3568,9 @@ h6, .h6 { font-family: kustom_cultureregular; }
 .list-text p { color: #666666; font-size: 18px; font-weight: 400; opacity: 0.75; }
 
 /*.card-body */
-.referi-news { background: #212429; color: #ffffe0; padding: 0.4rem; font-size: 20px; /*opacity: 0.85;*/ font-family: Archivo; /*font-weight: 700;*/ }
+.referi-news { padding: 0.4rem; font-size: 16px; /*opacity: 0.85;*/ font-family: Archivo; /*font-weight: 700;*/ }
 
-.warning .extra-info { color: #212429; font-size: 18px; opacity: 0.80; font-family: Archivo; font-weight: 700; }
+.warning .extra-info { color: #212429; font-size: 18px; opacity: 0.80; font-family: Archivo; font-weight: 0; }
 
 .card-text .extra-info { color: #212429; font-size: 18px; opacity: 0.80; font-family: Archivo; font-weight: 700; }
 

@@ -5,13 +5,10 @@ sub-title: Temporada 2024
 author: CAPPER
 ---
 
-<div class="mt-5 mb-4 black-title"> 
-    <div class="referi-news">
-        <li class="list-group-item extra-info espacios-0 kustom_culture">
-            <h2>📺️partidos completos del CA Peñarol - temporada 2024</h2> 
-            <h5>🎤relato: maximo goñi</h5>
-        </li>
-    </div>
+<div class="mt-5 mb-4 black-title">
+  <h1 class="text-success mb-0 pb-0 kustom_culture 🙏🏿 👏🏿">
+      <center><h2 style="color: #ffffe0;">partidos completos</h2></center>
+  </h1> 
 </div>
 
 <div class="container-fluid cover">
@@ -21,16 +18,26 @@ author: CAPPER
     <div class="scroll-images">
         {% for post in site.categories.partidos-completos %}
            <div class="child">
-            <div class="card border-0 container-fluid m-4 bg-dark">
-              <div class="card-header text-center">
-                <span class="dyuthi_regular">{{ post.sub-title }}</span>
-              </div>
-              <div class="card-body rounded-0 card-text" style="padding: 0rem;">
-                <a href="{{ site.url | relative_url }}{{ post.url }}">
-                    <img src="{{ site.url | relative_url }}{{ post.image }}" width="100%">
-                </a>
-              </div>
-            </div>
+                <div class="container-fluid d-flex kustom_culture align-items-center justify-content-center ">
+                    <div class="bronce">
+                        <div>
+                            <h2 class="justify-content-center kustom_culture">{{ post.torneo-corriente }}</h2>
+                        </div>
+                        <div>
+                            <span class="c justify-content-center ms-2">
+                                <img src="{{ site.url | relative_url }}/images/{{ post.image-local }}" width="{{ post.width-local }}">
+                            </span>
+                            <span class="b justify-content-center ms-3">
+                                <img src="{{ site.url | relative_url }}/images/{{ post.image-away }}" width="{{ post.width-away }}">
+                            </span>
+                        </div>
+                        <div>
+                            <a href="{{ site.url | relative_url }}{{ post.url }}">
+                                <h5 class="justify-content-center kustom_culture">ver online</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
            </div>
         {% endfor %}
     </div>
@@ -38,43 +45,27 @@ author: CAPPER
         <i class="fas fa-angle-double-right"></i>
     </button>
 </div>
+
 <hr/>
 <div class="mt-5 mb-4 black-title">
-    <h5 class="text-success mb-0 pb-0 kustom_culture">
-        <span>Diego Aguirre: 🗨️"Sequeira tendrá al menos 3 semanas de recuperación"</span><br>
-    </h5>  
-</div>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1873161462&color=d4aa00"></iframe>
-<div class="mt-5 mb-4 black-title">
-    <h5 class="text-success mb-0 pb-0 kustom_culture">
-        <span>Dura crítica de José Luis Chilavert: 🗨️"A Alonso no lo vi defender a los jugadores uruguayos que dieron la cara"</span><br>
-    </h5>  
-</div>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1873931055&color=%23d4aa00&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-<hr/>
-<div class="mt-5 mb-4 black-title"> 
-    <div class="referi-news">
-        <li class="list-group-item extra-info espacios-0 kustom_culture">
-            <h2>🗞️noticias del CA Peñarol</h2> 
-        </li>
-    </div>
+  <h1 class="text-success mb-0 pb-0 kustom_culture 🙏🏿 👏🏿">
+      <center><h2 style="color: #ffffe0;">noticias</h2></center>
+  </h1> 
 </div>
 <div class="container-fluid">
    <div class="row">
       {% for post in site.categories.noticias limit: 24 %}
       <div class="col-md-4">
         <div class="card border-0 mb-4 bg-secondary" style="padding: 0.1rem; border-radius: 8px;display: inline-block;"><!-- 286px; -->
-            <div class="card-header archivo bg-dark text-center">
+            <div class="🙏🏿 👏🏿 archivo bg-dark text-center">
                 {{ post.date_es }}
             </div>
             <img src="{{ post.image }}" height="100%" width="100%">
             <div class="card-body card-text" style="padding: 0;">
                 <div class="referi-news">
-                    <strong>
-                        <p>
-                            {{ post.title }}
-                        </p>
-                    </strong>
+                    <p>
+                        {{ post.title }}
+                    </p>
                     <p>
                         <a href="{{ site.url | relative_url }}{{ post.url }}" style="font-weight: 0;" class="kustom_culture">ver contenido </a>
                     </p>
@@ -86,6 +77,7 @@ author: CAPPER
     </div>
     
 </div>
+
 <div style='height: 300px;'></div>
 
 

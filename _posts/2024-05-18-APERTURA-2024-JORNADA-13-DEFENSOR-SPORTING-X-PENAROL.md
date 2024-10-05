@@ -9,6 +9,11 @@ partido: Defensor Sp x Peñarol
 local: DEFENSOR SP
 visitante: PEÑAROL
 image: '/images/DSC-PEN.png'
+image-local: 'DSC.png'
+image-away: 'PEN.png'
+torneo-corriente: 'apertura fecha 13'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/xwxx5esejumg.html
 video: AVC, 1920x1080, 25 fps
 audio: mp3, mono, 44100 Hz

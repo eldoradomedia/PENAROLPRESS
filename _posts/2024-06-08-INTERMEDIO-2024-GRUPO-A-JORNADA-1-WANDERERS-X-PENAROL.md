@@ -9,6 +9,11 @@ partido: Wanderers x Peñarol
 local: WANDERERS
 visitante: PEÑAROL
 image: '/images/INTERMEDIO_2024/WAN-PEN.png'
+image-local: 'WAN.png'
+image-away: 'PEN.png'
+torneo-corriente: 'intermedio fecha 1'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/n40f4598y9ou.html
 video: AVC, 854x480, 25.000 fps
 audio: sin audio

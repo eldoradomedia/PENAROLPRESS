@@ -1173,13 +1173,13 @@
 <lastmod>2024-10-03T12:02:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/libertadores-2024/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/intermedio-2024/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/penarol-directo/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/libertadores-2024/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/cards/</loc>

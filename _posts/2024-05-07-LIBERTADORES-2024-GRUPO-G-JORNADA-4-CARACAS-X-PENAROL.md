@@ -10,6 +10,11 @@ partido: Caracas x Peñarol
 local: CARACAS
 visitante: PEÑAROL
 image: '/images/CFC-PEN.png'
+image-local: 'CFC.png'
+image-away: 'PEN.png'
+torneo-corriente: 'libertadores fecha 4'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/p68fa9r6sj7m.html
 video: HEVC, 1280x720, 59.94 fps
 audio: mp3, mono, 44100 Hz, 128 kbps
