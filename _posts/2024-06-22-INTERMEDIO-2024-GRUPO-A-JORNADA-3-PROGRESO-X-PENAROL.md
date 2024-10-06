@@ -9,6 +9,11 @@ partido: ⚽️Progreso x Peñarol
 local: PROGRESO
 visitante: PEÑAROL
 image: '/images/INTERMEDIO_2024/PRO-PEN.png'
+image-local: 'PRO.png'
+image-away: 'PEN.png'
+torneo-corriente: 'intermedio fecha 3'
+width-local: '85px'
+width-away: '93px'
 video: 📼️AVC, 1280x720, 62.500 fps
 audio: 🎤️mp3, 1ch, 44100Hz
 relato: En español · Oriental 770

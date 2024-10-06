@@ -9,6 +9,11 @@ partido: Peñarol x River Plate
 local: PEÑAROL
 visitante: RIVER PLATE
 image: '/images/PEN-RIV.png'
+image-local: 'PEN.png'
+image-away: 'RIV.png'
+torneo-corriente: 'apertura fecha 10'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/8958szm2u3j7.html
 video: AVC, 1920x1080, 24.985 fps
 audio: mp3, 1ch, 44100 Hz, 128 kbps

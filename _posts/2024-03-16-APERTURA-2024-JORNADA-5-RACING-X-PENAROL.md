@@ -9,6 +9,11 @@ partido: Racing x Peñarol
 local: RACING
 visitante: PEÑAROL
 image: '/images/RAC-PEN.png'
+image-local: 'RAC.png'
+image-away: 'PEN.png'
+torneo-corriente: 'apertura fecha 5'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/casqov3f2jbb.html
 video: HEVC, 1280x720, 25.000 fps
 audio: aac, 2ch, 48000 Hz, 128 kbps

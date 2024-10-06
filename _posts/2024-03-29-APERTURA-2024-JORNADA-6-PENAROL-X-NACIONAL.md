@@ -9,6 +9,11 @@ partido: Peñarol x Nacional
 local: PEÑAROL
 visitante: NACIONAL
 image: '/images/PEN-NAC.png'
+image-local: 'PEN.png'
+image-away: 'NAC.png'
+torneo-corriente: 'apertura fecha 6'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/fes8dlwtrll8.html
 video: AVC, 1920x1080, 55.555 fps
 audio: aac, 2ch, 48000 Hz, 128 kbps

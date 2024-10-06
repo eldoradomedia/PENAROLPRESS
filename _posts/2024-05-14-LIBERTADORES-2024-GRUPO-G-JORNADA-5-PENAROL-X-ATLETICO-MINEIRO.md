@@ -10,6 +10,11 @@ partido: Peñarol x Atlético Mineiro
 local: PEÑAROL
 visitante: ATLÉTICO MINEIRO
 image: '/images/PEN-CAM.png'
+image-local: 'PEN.png'
+image-away: 'CAM.png'
+torneo-corriente: 'libertadores fecha 5'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/pez2p19szlnx.html
 video: HEVC, 1280x720, 50.000 fps
 audio: mp3, 1ch, 44100 Hz

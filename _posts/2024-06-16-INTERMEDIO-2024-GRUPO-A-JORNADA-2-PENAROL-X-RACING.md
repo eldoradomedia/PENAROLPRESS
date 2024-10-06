@@ -9,6 +9,11 @@ partido: Peñarol vs Racing
 local: PEÑAROL
 visitante: RACING
 image: '/images/INTERMEDIO_2024/PEN-RAC.png'
+image-local: 'PEN.png'
+image-away: 'RAC.png'
+torneo-corriente: 'intermedio fecha 2'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.ws/hpd3d3xlu2xr.html
 video: AVC, 1280x720, 59.940 fps
 audio: mp3, 1ch, 44100Hz

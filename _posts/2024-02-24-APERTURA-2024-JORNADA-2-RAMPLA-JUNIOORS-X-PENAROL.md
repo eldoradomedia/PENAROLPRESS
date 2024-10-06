@@ -9,6 +9,11 @@ partido: Peñarol x Miramar M
 local: PEÑAROL
 visitante: MIRAMAR MISIONES
 image: '/images/PEN-MMI.png'
+image-local: 'PEN.png'
+image-away: 'MMI.png'
+torneo-corriente: 'apertura fecha 2'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/x54ei35pt7fw.html
 video: AVC, 1920x1080, 25.000 fps
 audio: aac, 2ch, 24000 Hz, 128 kbps

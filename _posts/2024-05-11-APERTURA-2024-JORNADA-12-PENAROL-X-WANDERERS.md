@@ -9,6 +9,11 @@ partido: Peñarol x Wanderers
 local: PEÑAROL
 visitante: WANDERERS
 image: '/images/PEN-WAN.png'
+image-local: 'PEN.png'
+image-away: 'WAN.png'
+torneo-corriente: 'apertura fecha 12'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/1pm05fzk92u1.html
 video: HEVC, 1280x720, 29.970 fps
 audio: mp3, 1ch, 44100 Hz

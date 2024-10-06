@@ -9,6 +9,11 @@ partido: Liverpool x Peñarol
 local: LIVERPOOL
 visitante: PEÑAROL
 image: '/images/LIV-PEN.png'
+image-local: 'LIV.png'
+image-away: 'PEN.png'
+torneo-corriente: 'apertura fecha 11'
+width-local: '85px'
+width-away: '93px'
 downloadlink: https://uqload.to/uaidxjtk2e9t.html
 video: AVC, 1920x1080, 25 fps
 audio: mp3, mono, 44100 Hz, 128 kb/s

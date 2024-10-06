@@ -10,6 +10,11 @@ partido: Peñarol x Rosario Central
 local: PEÑAROL
 visitante: ROSARIO CENTRAL
 image: '/images/PEN-CEN.png'
+image-local: 'PEN.png'
+image-away: 'CEN.png'
+torneo-corriente: 'libertadores fecha 6'
+width-local: '93px'
+width-away: '85px'
 downloadlink: https://uqload.to/d4kl662filuh.html
 video: AVC, 1280x720, 29.97 fps
 audio: mp3, mono, 44100 Hz
