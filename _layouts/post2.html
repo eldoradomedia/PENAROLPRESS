@@ -8,16 +8,15 @@
         {% include navbar.html %}
         <div class="container">
             <div class="row">
-                <div class="col-md-12 title">
+                <div class="col-md-10 title">
                     <div class='mt-5 mb-4'>
-                        <h1 class='kustom_culture black-title'>
+                        <h1 class='kustom_culture black-title mb-0'>
                            {{ page.title }}
                         </h1>
                         <hr>
-                        <p class="second-title"><strong>{{ page.description }}</strong></p>
-                        <div class="inlines card-text list-text">
-                            <span>{{ page.date_es }}</span>
-                            <span class="btn btn-success"><i class="fa fa-share-alt fa-fw" aria-hidden="true"></i>share</span>
+                        <p class="second-title mb-0"><strong>{{ page.description }}</strong></p>
+                        <div class="inlines card-text mb-2">
+                            <p style="color: #917c6f;font-size: 16px;" style="display: block;">{{ page.date_es }}</p>
                         </div>
                     </div>
                 </div>
@@ -28,9 +27,7 @@
                         {{ content }}
                     </div>
                 </div>
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-3">
+                <div class="col-md-3" style="margin-top: -48px;">
                     {% include sidebardefault.html %}
                 </div>
             </div>

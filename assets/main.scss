@@ -112,7 +112,7 @@ $background-color_2: #f8fbc0;
 
 .👏🏿 {
 	background: #7a7459;
-	color: #2b2200;
+	color: #ffffe0;
 	font-size: 18px;
 }
 
@@ -135,10 +135,10 @@ span.c {
 
 body {
 	a {
-		color: #d44a00;  /*#7a7459*/
+		color: #8a5906;  /*#7a7459 d44a00*/
 		text-decoration: none;
 		&:hover {
-			color: #8a5906; /*#2b2200*/
+			color: #7a7459; /*#2b2200*/
 			text-decoration: none;
 		}
 	}
@@ -309,8 +309,8 @@ h6 {
 
 /*.card-body */.referi-news {
 	padding: 0.4rem;
-	font-size: 16px;
-	/*opacity: 0.85;*/
+	font-size: 18px;
+	opacity: 0.85;
 	font-family: Archivo;
 	/*font-weight: 700;*/
 }
